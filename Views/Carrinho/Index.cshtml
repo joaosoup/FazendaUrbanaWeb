@@ -22,6 +22,7 @@
         <h1>HortoInova</h1>
         <p>Produtos orgânicos e saudáveis direto da nossa fazenda urbana</p>
     </header>
+    
 
     <!-- Carrinho Container -->
     <div class="container">
@@ -31,8 +32,6 @@
             <tr>
                 <th>Produto</th>
                 <th>Preço de Custo</th>
-                <th>Preço de Venda</th>
-                <th>Custo Marketplace</th>
                 <th>Quantidade</th>
                 <th>Total</th>
                 <th>Ações</th>
@@ -42,12 +41,10 @@
                 <tr>
                     <td>@item.Produto.NomeProduto</td>
                     <td>@item.Produto.Preco.ToString("C")</td>
-                    <td>@item.Produto.PrecoVenda.ToString("C")</td>
-                    <td>@item.Produto.CustoMarketplace.ToString("C")</td>
                     <td>@item.Quantidade</td>
                     <td>@item.Total.ToString("C")</td>
                     <td class="actions">
-                        <a href="@Url.Action("Remover", "Carrinho", new { id = item.Produto.Id })">Remover</a>
+                        <a href="@Url.Action("Remover", "Carrinho", new { id = item.Produto.IdProduto })">Remover</a>
                     </td>
                 </tr>
             }
@@ -64,9 +61,8 @@
                 <p>
                     <strong>@produto.NomeProduto</strong><br>
                     Preço de Custo: @produto.Preco.ToString("C")<br>
-                    Preço de Venda: @produto.PrecoVenda.ToString("C")<br>
-                    Custo Marketplace: @produto.CustoMarketplace.ToString("C")<br>
-                    <a href="@Url.Action("Adicionar", "Carrinho", new { id = produto.Id })">Adicionar ao Carrinho</a>
+                    
+                    <a href="@Url.Action("Adicionar", "Carrinho", new { id = produto.IdProduto })">Adicionar ao Carrinho</a>
                 </p>
             }
         </div>

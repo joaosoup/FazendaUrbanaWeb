@@ -8,7 +8,7 @@
 
         public void AdicionarItem(Produto produto, int quantidade)
         {
-            var item = Itens.FirstOrDefault(i => i.Produto.Id == produto.Id);
+            var item = Itens.FirstOrDefault(i => i.Produto.IdProduto == produto.IdProduto);
             if (item != null)
             {
                 item.Quantidade += quantidade;
@@ -21,7 +21,7 @@
 
         public void RemoverItem(int produtoId)
         {
-            var item = Itens.FirstOrDefault(i => i.Produto.Id == produtoId);
+            var item = Itens.FirstOrDefault(i => i.Produto.IdProduto == produtoId);
             if (item != null)
             {
                 Itens.Remove(item);
