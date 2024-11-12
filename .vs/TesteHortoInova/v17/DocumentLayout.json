@@ -1,0 +1,202 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\testehortoinova\\views\\carrinho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:views\\carrinho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\testehortoinova\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\testehortoinova\\wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:wwwroot\\css\\styles.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\testehortoinova\\models\\carrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\carrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\testehortoinova\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\testehortoinova\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\testehortoinova\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\testehortoinova\\models\\estoquecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\estoquecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\testehortoinova\\models\\carrinhoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\carrinhoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\testehortoinova\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:1:0:{d212f56b-c48a-434c-a121-1c5d80b59b9f}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "styles.css",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\wwwroot\\css\\styles.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\styles.css",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\wwwroot\\css\\styles.css",
+              "RelativeToolTip": "wwwroot\\css\\styles.css",
+              "ViewState": "AQIAAEYAAAAAAAAAAAAcwJMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-11-12T02:00:55.83Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:49:46.139Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "EstoqueContext.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Models\\EstoqueContext.cs",
+              "RelativeDocumentMoniker": "Models\\EstoqueContext.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Models\\EstoqueContext.cs",
+              "RelativeToolTip": "Models\\EstoqueContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAABbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-12T01:26:44.583Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:08:49.158Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-11T01:07:11.52Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Views\\Carrinho\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Carrinho\\Index.cshtml",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Views\\Carrinho\\Index.cshtml",
+              "RelativeToolTip": "Views\\Carrinho\\Index.cshtml",
+              "ViewState": "AQIAADMAAAAAAAAAAAAAAEYAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-11T01:12:58.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Carrinho.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Models\\Carrinho.cs",
+              "RelativeDocumentMoniker": "Models\\Carrinho.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Models\\Carrinho.cs",
+              "RelativeToolTip": "Models\\Carrinho.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:05:31.496Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarrinhoItem.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Models\\CarrinhoItem.cs",
+              "RelativeDocumentMoniker": "Models\\CarrinhoItem.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Models\\CarrinhoItem.cs",
+              "RelativeToolTip": "Models\\CarrinhoItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:05:10.194Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Models\\Produto.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Models\\Produto.cs",
+              "RelativeToolTip": "Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:04:34.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "CarrinhoController.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Controllers\\CarrinhoController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CarrinhoController.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\TesteHortoInova\\Controllers\\CarrinhoController.cs",
+              "RelativeToolTip": "Controllers\\CarrinhoController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-11T01:01:11.397Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

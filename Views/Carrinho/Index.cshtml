@@ -1,0 +1,92 @@
+﻿@model TesteHortoInova.Models.Carrinho
+@using TesteHortoInova.Models
+
+@{
+    ViewData["Title"] = "Home Page";
+    Layout = null; // Defina o layout principal, se necessário
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HortoInova - Carrinho de Compras</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link href="~/css/styles.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>HortoInova</h1>
+        <p>Produtos orgânicos e saudáveis direto da nossa fazenda urbana</p>
+    </header>
+
+    <!-- Carrinho Container -->
+    <div class="container">
+        <h2>Carrinho de Compras</h2>
+
+        <table>
+            <tr>
+                <th>Produto</th>
+                <th>Preço de Custo</th>
+                <th>Preço de Venda</th>
+                <th>Custo Marketplace</th>
+                <th>Quantidade</th>
+                <th>Total</th>
+                <th>Ações</th>
+            </tr>
+            @foreach (var item in Model.Itens)
+            {
+                <tr>
+                    <td>@item.Produto.NomeProduto</td>
+                    <td>@item.Produto.Preco.ToString("C")</td>
+                    <td>@item.Produto.PrecoVenda.ToString("C")</td>
+                    <td>@item.Produto.CustoMarketplace.ToString("C")</td>
+                    <td>@item.Quantidade</td>
+                    <td>@item.Total.ToString("C")</td>
+                    <td class="actions">
+                        <a href="@Url.Action("Remover", "Carrinho", new { id = item.Produto.Id })">Remover</a>
+                    </td>
+                </tr>
+            }
+        </table>
+
+        <h3 class="total">Total do Carrinho: @Model.TotalCarrinho.ToString("C")</h3>
+
+        <a href="@Url.Action("Limpar", "Carrinho")" class="clear-cart">Limpar Carrinho</a>
+
+        <h4>Produtos Disponíveis</h4>
+        <div class="available-products">
+            @foreach (var produto in CarrinhoController._produtos)
+            {
+                <p>
+                    <strong>@produto.NomeProduto</strong><br>
+                    Preço de Custo: @produto.Preco.ToString("C")<br>
+                    Preço de Venda: @produto.PrecoVenda.ToString("C")<br>
+                    Custo Marketplace: @produto.CustoMarketplace.ToString("C")<br>
+                    <a href="@Url.Action("Adicionar", "Carrinho", new { id = produto.Id })">Adicionar ao Carrinho</a>
+                </p>
+            }
+        </div>
+        <!-- About Section -->
+    </div>
+    <section>
+        <div class="about-farm">
+            <h4>Sobre a Fazenda</h4>
+            <p>
+                A fazenda urbana HortoInova é dedicada a fornecer produtos orgânicos e saudáveis, cultivados com práticas sustentáveis.
+                Nossos produtos são frescos, saudáveis e livres de agrotóxicos, garantindo qualidade e saúde para a sua mesa.
+            </p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2024 HortoInova. Todos os direitos reservados.</p>
+        <p>Orgulhosamente fornecendo produtos frescos e saudáveis.</p>
+    </footer>
+
+</body>
+</html>
