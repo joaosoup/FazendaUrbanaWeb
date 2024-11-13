@@ -209,44 +209,76 @@ td {
         background-color: #45a049; /* Tom mais escuro de verde */
     }
 
+
+
 .modal {
-    display: flex;
+    display: none; /* O modal estará oculto inicialmente */
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.6);
     align-items: center;
     justify-content: center;
+    z-index: 1000;
 }
 
+/* Fundo borrado para o overlay */
+.modal-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Fundo com um tom escuro */
+    backdrop-filter: blur(8px); /* Desfoque aplicado */
+    z-index: -1; /* Para que fique abaixo do conteúdo do modal */
+}
+
+/* Conteúdo do modal */
 .modal-content {
-    background: white;
-    padding: 2em;
-    border-radius: 10px;
-    max-width: 400px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
     width: 90%;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    max-width: 400px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    z-index: 1;
     text-align: center;
 }
 
-    .modal-content h2 {
-        margin-bottom: 1em;
-    }
-
 .input-field {
     width: 100%;
-    padding: 0.5em;
+    height: 30px;
     margin: 0.5em 0;
 }
 
 .btn-login {
-    padding: 0.5em 1em;
+    padding: 0.812rem 40px;
     background-color: #4CAF50;
     color: white;
     border: none;
-    border-radius: 5px;
     cursor: pointer;
+    margin-top: 10px;
+    font-family: poppins;
+
+}
+
+.btn-register {
+    padding: 0.699rem 20px; 
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px; 
+    margin-left: 10px;
+    text-decoration: none;
+ 
+}
+
+.input-field::placeholder {
+    margin-left: 10px;
+    color: #888; /* Cor do texto do placeholder */
+    font-style: italic; /* Estilo do texto */
 }
 
