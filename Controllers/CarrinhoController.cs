@@ -14,7 +14,7 @@ public class CarrinhoController : Controller
     {
         _context = context;
 
-         //Carregar produtos uma vez, se ainda não carregado
+        // Carregar produtos uma vez, se ainda não carregado
         if (!_produtos.Any())
         {
             _produtos = _context.Produtos.ToList();  // Carrega os produtos do banco
@@ -45,6 +45,35 @@ public class CarrinhoController : Controller
     public ActionResult Limpar()
     {
         _carrinho.LimparCarrinho();
+        return RedirectToAction("Index");
+    }
+
+    // Nova ação para criar pedido e limpar o carrinho
+    public ActionResult Comprar()
+    {
+        if (_carrinho.Itens.Any())
+        {
+            // Cria um novo pedido
+            var pedido = new Pedido
+            {
+                Total = _carrinho.TotalCarrinho,
+                Itens = _carrinho.Itens.Select(item => new ItemPedido
+                {
+                    IdProduto = item.Produto.IdProduto,
+                    NomeProduto = item.Produto.NomeProduto,
+                    Preco = item.Produto.Preco,
+                    Quantidade = item.Quantidade
+                }).ToList()
+            };
+
+            // Adiciona o pedido ao banco de dados
+            _context.Pedidos.Add(pedido);
+            _context.SaveChanges();
+
+            // Limpa o carrinho
+            _carrinho.LimparCarrinho();
+        }
+
         return RedirectToAction("Index");
     }
 }

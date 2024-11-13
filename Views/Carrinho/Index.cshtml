@@ -17,6 +17,26 @@
 </head>
 <body>
 
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <h2>Login</h2>
+            <form method="post" action="/Login/Entrar">
+                <input type="email" name="email" class="input-field" placeholder="Email" required>
+                <input type="password" name="senha" class="input-field" placeholder="Senha" required>
+                <button type="submit" class="btn-login">Entrar</button>
+            </form>
+            <p>Não tem uma conta? <a href="/Login/Registrar">Cadastre-se</a></p>
+        </div>
+    </div>
+
+    <script>
+        // Exibe o modal de login ao carregar a página
+        document.addEventListener("DOMContentLoaded", function() {
+            const loginModal = document.getElementById("loginModal");
+            loginModal.style.display = "flex";
+        });
+    </script>
+
     <!-- Header -->
     <section class="topo">
         <div class="home">
@@ -55,6 +75,9 @@
         <h3 class="total">Total do Carrinho: @Model.TotalCarrinho.ToString("C")</h3>
 
         <a href="@Url.Action("Limpar", "Carrinho")" class="clear-cart">Limpar Carrinho</a>
+        <!-- Botão para criar pedido -->
+        <a href="@Url.Action("CriarPedido", "Carrinho")" class="buy-button">Comprar</a>
+
 
         <h4>Produtos Disponíveis</h4>
         <div class="available-products">
