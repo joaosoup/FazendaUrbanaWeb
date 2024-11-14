@@ -17,29 +17,6 @@
 </head>
 <body>
 
-     <!-- Login -->
-    <div id="loginModal" class="modal">
-        <div class="modal-overlay"></div>
-        <div class="modal-content">
-            <h2>Login</h2>
-            <form method="post" action="/Login/Entrar">
-                <input type="email" name="email" class="input-field" placeholder="Digite seu e-mail" required>
-                <input type="password" name="senha" class="input-field" placeholder="Digite sua senha" required>
-                <button type="submit" class="btn-login">Entrar</button>
-                <a href="/Login/Registrar" class="btn-register">Cadastrar</a>
-            </form>
-            
-        </div>
-    </div>
-
-    <script>
-        // Exibe o modal de login ao carregar a página
-        document.addEventListener("DOMContentLoaded", function() {
-        const loginModal = document.getElementById("loginModal");
-        loginModal.style.display = "flex";
-    });
-    </script>
-
     <!-- Header -->
     <section class="topo">
         <div class="home">

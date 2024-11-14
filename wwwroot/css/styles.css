@@ -211,8 +211,9 @@ td {
 
 
 
+/* Modal CSS */
 .modal {
-    display: none; /* O modal estará oculto inicialmente */
+    display: none; /* Oculto inicialmente */
     position: fixed;
     top: 0;
     left: 0;
@@ -223,19 +224,17 @@ td {
     z-index: 1000;
 }
 
-/* Fundo borrado para o overlay */
 .modal-overlay {
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
-    background-color: rgba(0, 0, 0, 0.6); /* Fundo com um tom escuro */
-    backdrop-filter: blur(8px); /* Desfoque aplicado */
-    z-index: -1; /* Para que fique abaixo do conteúdo do modal */
+    background-color: rgba(0, 0, 0, 0.6);
+    backdrop-filter: blur(8px); /* Desfoque */
+    z-index: 999; /* Abaixo do modal */
 }
 
-/* Conteúdo do modal */
 .modal-content {
     background: #fff;
     padding: 20px;
@@ -243,9 +242,10 @@ td {
     width: 90%;
     max-width: 400px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    z-index: 1;
     text-align: center;
+    z-index: 1001;
 }
+
 
 .input-field {
     width: 100%;

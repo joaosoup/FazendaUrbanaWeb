@@ -1,0 +1,162 @@
+﻿@model TesteHortoInova.Models.SalvarDados
+@using TesteHortoInova.Models
+@{
+    ViewData["Title"] = "Login";
+}
+
+<style>
+    * {
+        padding: 0;
+        margin: 0;
+    }
+
+    body {
+        background-color: #eaf4ea;
+        font-family: Arial, sans-serif;
+    }
+
+    .container {
+        max-width: 400px;
+        margin: 50px auto;
+        background-color: #ffffff;
+        padding: 30px;
+        border-radius: 8px;
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h2 {
+        text-align: center;
+        color: #4CAF50; /* Verde escuro */
+        font-weight: bold;
+        margin-bottom: 20px;
+    }
+
+    .form-group label {
+        color: #666666;
+        font-size: 0.9em;
+        margin-bottom: 5px;
+        display: block;
+        margin-top:13px;
+    }
+
+    .form-control {
+        width: 100%;
+        height: 40px;
+        border-radius: 5px;
+        border: 1px solid #cccccc;
+        padding: 10px;
+        font-size: 1em;
+    }
+
+        .form-control:focus {
+            border-color: #4CAF50; /* Verde escuro */
+            box-shadow: 0 0 5px rgba(76, 175, 80, 0.25);
+            outline: none;
+        }
+
+    .btn-primary {
+        width: 100%;
+        background-color: #4CAF50; /* Verde escuro */
+        border-color: #4CAF50;
+        border-radius: 5px;
+        height: 40px;
+        font-size: 1em;
+        font-weight: bold;
+        color: #ffffff;
+        margin-top: 20px;
+    }
+
+        .btn-primary:hover {
+            background-color: #45a049; /* Verde mais escuro */
+        }
+
+    .btn-secondary {
+        width: 100%;
+        background-color: #8BC34A; /* Verde claro */
+        border-color: #8BC34A;
+        border-radius: 5px;
+        height: 40px;
+        font-size: 1em;
+        margin-top: 10px;
+        font-weight: bold;
+        color: #ffffff;
+    }
+
+        .btn-secondary:hover {
+            background-color: #7CB342; /* Verde mais escuro */
+        }
+
+    .link-register {
+        display: block;
+        text-align: center;
+        margin-top: 15px;
+        font-size: 0.9em;
+        color: #4CAF50;
+    }
+
+        .link-register a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+            .link-register a:hover {
+                text-decoration: underline;
+            }
+
+    .topo {
+        display: flex;
+        flex-direction: column;
+        height: 30vh;
+        background-color: #4CAF50;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .bem-vindo {
+        font-size: 34px;
+        color: #fff;
+        margin: 0;
+        line-height: 1;
+    }
+
+    .HortoInova {
+        font-size: 80px;
+        color: #fff;
+        margin: 0;
+        line-height: 1;
+    }
+</style>
+
+<section class="topo">
+    <div class="home">
+        <h2 class="bem-vindo">Bem Vindo!</h2>
+        <h1 class="HortoInova">HortoInova</h1>
+    </div>
+</section>
+
+<div class="container">
+    <h2>Login</h2>
+    <form method="post" asp-action="Entrar"
+    asp-controller="login"
+    >
+
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" class="form-control" id="email" name="Email" placeholder="Digite seu e-mail" required>
+        </div>
+
+        <div class="form-group">
+            <label for="password">Senha</label>
+            <input type="password" class="form-control" id="password" name="Senha" placeholder="Digite sua senha" required>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-3">Entrar</button>
+        <div class="link-register">
+            <p>Não tem uma conta? <a href="/Register">Registre-se</a></p>
+        </div>
+    </form>
+</div>
+
