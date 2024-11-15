@@ -139,17 +139,14 @@
 
 <div class="container">
     <h2>Login</h2>
-    <form method="post" asp-action="Entrar"
-    asp-controller="Login"
-    >
-
-        <form asp-action="Entrar" method="post">
-            <input type="email" name="email" required />
-            <input type="password" name="senha" required />
-            <button type="submit">Entrar</button>
-        </form>
-    
+    <form method="post" asp-action="Entrar" asp-controller="Inicial">
+        <input type="email" name="email" placeholder="Email" required />
+        <input type="password" name="senha" placeholder="Senha" required />
+        <button type="submit" class="btn-primary">Entrar</button>
+    </form>
+    <div asp-validation-summary="All" class="text-danger"></div>
 </div>
+
 
 <script>
     window.location.href = "/Carrinho";

@@ -774,3 +774,9 @@ C:\Users\mamat\Desktop\pim4\html\FazendaUrbanaWeb\bin\Debug\net8.0\System.Net.Ht
 C:\Users\mamat\Desktop\pim4\html\FazendaUrbanaWeb\bin\Debug\net8.0\System.Web.Http.dll
 C:\Users\mamat\Desktop\pim4\html\FazendaUrbanaWeb\bin\Debug\net8.0\System.Web.Http.Cors.dll
 C:\Users\mamat\Desktop\pim4\html\FazendaUrbanaWeb\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
+C:\GitProjects\Jobs\PIM - 4 Semestre\FazendaUrbanaWeb\bin\Debug\net8.0\FluentAssertions.dll
+C:\GitProjects\Jobs\PIM - 4 Semestre\FazendaUrbanaWeb\bin\Debug\net8.0\System.Web.Cors.dll
+C:\GitProjects\Jobs\PIM - 4 Semestre\FazendaUrbanaWeb\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\GitProjects\Jobs\PIM - 4 Semestre\FazendaUrbanaWeb\bin\Debug\net8.0\System.Web.Http.dll
+C:\GitProjects\Jobs\PIM - 4 Semestre\FazendaUrbanaWeb\bin\Debug\net8.0\System.Web.Http.Cors.dll
+C:\GitProjects\Jobs\PIM - 4 Semestre\FazendaUrbanaWeb\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

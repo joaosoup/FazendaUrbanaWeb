@@ -1,5 +1,7 @@
 using TesteHortoInova.Models;
 using Microsoft.EntityFrameworkCore;
+using System;
+using TesteHortoInova.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +11,10 @@ builder.Services.AddControllersWithViews();
 // Configura o contexto do banco de dados
 builder.Services.AddDbContext<EstoqueContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
+  
+    builder.Services.AddScoped<AuthService>();
+
+    builder.Services.AddControllersWithViews();
 
 // Configura o CORS
 builder.Services.AddCors(options =>
