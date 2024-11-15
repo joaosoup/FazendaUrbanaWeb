@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TesteHortoInova")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+59a5a54446f16f981fb0bb41660f97288655db10")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dc0522902ebb666f61df3fe8578146edf857c33a")]
 [assembly: System.Reflection.AssemblyProductAttribute("TesteHortoInova")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TesteHortoInova")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -10,6 +10,17 @@ builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<EstoqueContext>(options =>
     options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
 
+// Configura o CORS
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("MyPolicy", policyBuilder =>
+    {
+        policyBuilder.AllowAnyOrigin()
+                     .AllowAnyMethod()
+                     .AllowAnyHeader();
+    });
+});
+
 var app = builder.Build();
 
 // Configura o pipeline de requisições HTTP
@@ -19,14 +30,19 @@ if (!app.Environment.IsDevelopment())
     app.UseHsts();
 }
 
-app.UseHttpsRedirection();
+
 app.UseStaticFiles();
 app.UseRouting();
+
+// Habilita o CORS com a política definida
+app.UseCors("MyPolicy");
+
 app.UseAuthorization();
 
 // Define a rota padrão para iniciar na tela de login
 app.MapControllerRoute(
     name: "default",
-    pattern: "{controller=Login}/{action=Login}/{id?}"); // Ajuste para garantir que a tela de login seja a inicial
+    pattern: "{controller=Inicial}/{action=Index}/{id?}");
+
 
 app.Run();

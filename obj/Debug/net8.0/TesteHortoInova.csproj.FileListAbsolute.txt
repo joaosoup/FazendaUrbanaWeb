@@ -768,3 +768,9 @@ C:\GitProjects\Jobs\PIM - 4 Semestre\FazendaUrbanaWeb\obj\Debug\net8.0\refint\Te
 C:\GitProjects\Jobs\PIM - 4 Semestre\FazendaUrbanaWeb\obj\Debug\net8.0\TesteHortoInova.pdb
 C:\GitProjects\Jobs\PIM - 4 Semestre\FazendaUrbanaWeb\obj\Debug\net8.0\TesteHortoInova.genruntimeconfig.cache
 C:\GitProjects\Jobs\PIM - 4 Semestre\FazendaUrbanaWeb\obj\Debug\net8.0\ref\TesteHortoInova.dll
+C:\Users\mamat\Desktop\pim4\html\FazendaUrbanaWeb\bin\Debug\net8.0\FluentAssertions.dll
+C:\Users\mamat\Desktop\pim4\html\FazendaUrbanaWeb\bin\Debug\net8.0\System.Web.Cors.dll
+C:\Users\mamat\Desktop\pim4\html\FazendaUrbanaWeb\bin\Debug\net8.0\System.Net.Http.Formatting.dll
+C:\Users\mamat\Desktop\pim4\html\FazendaUrbanaWeb\bin\Debug\net8.0\System.Web.Http.dll
+C:\Users\mamat\Desktop\pim4\html\FazendaUrbanaWeb\bin\Debug\net8.0\System.Web.Http.Cors.dll
+C:\Users\mamat\Desktop\pim4\html\FazendaUrbanaWeb\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll

@@ -140,23 +140,18 @@
 <div class="container">
     <h2>Login</h2>
     <form method="post" asp-action="Entrar"
-    asp-controller="login"
+    asp-controller="Login"
     >
 
-        <div class="form-group">
-            <label for="email">E-mail</label>
-            <input type="email" class="form-control" id="email" name="Email" placeholder="Digite seu e-mail" required>
-        </div>
-
-        <div class="form-group">
-            <label for="password">Senha</label>
-            <input type="password" class="form-control" id="password" name="Senha" placeholder="Digite sua senha" required>
-        </div>
-
-        <button type="submit" class="btn btn-primary mt-3">Entrar</button>
-        <div class="link-register">
-            <p>Não tem uma conta? <a href="/Register">Registre-se</a></p>
-        </div>
-    </form>
+        <form asp-action="Entrar" method="post">
+            <input type="email" name="email" required />
+            <input type="password" name="senha" required />
+            <button type="submit">Entrar</button>
+        </form>
+    
 </div>
+
+<script>
+    window.location.href = "/Carrinho";
+</script>
 
