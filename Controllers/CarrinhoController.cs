@@ -48,15 +48,15 @@ public class CarrinhoController : Controller
         return RedirectToAction("Index");
     }
 
-    // Nova ação para criar pedido e limpar o carrinho
-    public ActionResult Comprar()
+    // Nova ação para criar pedido, limpar o carrinho e salvar no banco
+    public ActionResult CriarPedido()
     {
         if (_carrinho.Itens.Any())
         {
             // Cria um novo pedido
             var pedido = new Pedido
             {
-                Total = _carrinho.TotalCarrinho,
+                ValorTotal = _carrinho.TotalCarrinho,
                 Itens = _carrinho.Itens.Select(item => new ItemPedido
                 {
                     IdProduto = item.Produto.IdProduto,
@@ -68,6 +68,26 @@ public class CarrinhoController : Controller
 
             // Adiciona o pedido ao banco de dados
             _context.Pedidos.Add(pedido);
+            _context.SaveChanges();
+
+            // Adiciona um pedido encerrado
+            var pedidoEncerrados = new PedidosEncerrados
+            {
+                IdPedido = pedido.IdPedido,
+                Estado = "Finalizado", // ou outro estado apropriado
+                Produto = string.Join(", ", pedido.Itens.Select(i => i.NomeProduto)), // Combina os nomes dos produtos
+                Quantidade = pedido.Itens.Sum(i => i.Quantidade),
+                ValorUnitario = pedido.Itens.First().Preco, // Exemplo, pegue o preço do primeiro item
+                Comprador = "Cliente Exemplo", // Modifique para o nome do comprador real
+                Plataforma = "Site", // Modifique conforme a plataforma de venda
+                FormaPgt = "Cartão", // Exemplo, defina a forma de pagamento
+                Desconto = 0, // Se houver desconto, substitua pelo valor apropriado
+                ValorTotal = _carrinho.TotalCarrinho,
+                Marketplace = "Horto Inova", // Exemplo, ajuste conforme o marketplace
+            };
+
+            // Adiciona ao banco de dados
+            _context.PedidosEncerrados.Add(pedidoEncerrados);
             _context.SaveChanges();
 
             // Limpa o carrinho

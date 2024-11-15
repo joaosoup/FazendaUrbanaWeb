@@ -1,5 +1,7 @@
 ﻿@model TesteHortoInova.Models.SalvarDados
 @using TesteHortoInova.Models
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
 @{
     ViewData["Title"] = "Login";
 }
@@ -31,24 +33,19 @@
         margin-bottom: 20px;
     }
 
-    .form-group label {
-        color: #666666;
-        font-size: 0.9em;
-        margin-bottom: 5px;
-        display: block;
-        margin-top:13px;
-    }
-
-    .form-control {
+    input[type="email"],
+    input[type="password"] {
         width: 100%;
-        height: 40px;
-        border-radius: 5px;
+        height: 50px;
+        border-radius: 10px;
         border: 1px solid #cccccc;
         padding: 10px;
-        font-size: 1em;
+        font-size: 1.1em;
+        margin-bottom: 15px; /* Espaçamento entre os inputs */
     }
 
-        .form-control:focus {
+        input[type="email"]:focus,
+        input[type="password"]:focus {
             border-color: #4CAF50; /* Verde escuro */
             box-shadow: 0 0 5px rgba(76, 175, 80, 0.25);
             outline: none;
@@ -58,50 +55,28 @@
         width: 100%;
         background-color: #4CAF50; /* Verde escuro */
         border-color: #4CAF50;
-        border-radius: 5px;
-        height: 40px;
-        font-size: 1em;
+        border-radius: 8px;
+        height: 50px;
+        font-size: 1.2em;
         font-weight: bold;
         color: #ffffff;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
         .btn-primary:hover {
             background-color: #45a049; /* Verde mais escuro */
         }
 
-    .btn-secondary {
+    .alert-info {
         width: 100%;
-        background-color: #8BC34A; /* Verde claro */
-        border-color: #8BC34A;
-        border-radius: 5px;
-        height: 40px;
-        font-size: 1em;
-        margin-top: 10px;
-        font-weight: bold;
+        background-color: #ffc107; /* Amarelo */
         color: #ffffff;
-    }
-
-        .btn-secondary:hover {
-            background-color: #7CB342; /* Verde mais escuro */
-        }
-
-    .link-register {
-        display: block;
+        border-radius: 8px;
+        padding: 10px;
+        margin-top: 15px; /* Espaçamento entre o alerta e o botão */
+        font-size: 1em;
         text-align: center;
-        margin-top: 15px;
-        font-size: 0.9em;
-        color: #4CAF50;
     }
-
-        .link-register a {
-            color: #4CAF50;
-            text-decoration: none;
-        }
-
-            .link-register a:hover {
-                text-decoration: underline;
-            }
 
     .topo {
         display: flex;
@@ -140,15 +115,16 @@
 <div class="container">
     <h2>Login</h2>
     <form method="post" asp-action="Entrar" asp-controller="Inicial">
-        <input type="email" name="email" placeholder="Email" required />
-        <input type="password" name="senha" placeholder="Senha" required />
+        <input type="email" name="email" placeholder="Digite seu Email" required />
+        <input type="password" name="senha" placeholder="Digite sua Senha" required />
         <button type="submit" class="btn-primary">Entrar</button>
     </form>
-    <div asp-validation-summary="All" class="text-danger"></div>
+    @if (ViewBag.AlertMessage != null)
+    {
+        <div class="alert alert-info">
+            @ViewBag.AlertMessage
+        </div>
+    }
 </div>
 
-
-<script>
-    window.location.href = "/Carrinho";
-</script>
-
+<script src="/_framework/aspnetcore-browser-refresh.js"></script>

@@ -1,4 +1,6 @@
-﻿namespace TesteHortoInova.Models
+﻿using System.ComponentModel.DataAnnotations.Schema;
+
+namespace TesteHortoInova.Models
 {
     public class SalvarDados
     {

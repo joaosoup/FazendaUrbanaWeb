@@ -1,7 +1,5 @@
-﻿using System.Linq;
+﻿using Microsoft.EntityFrameworkCore;
 using TesteHortoInova.Models;
-using Microsoft.EntityFrameworkCore;
-using System;
 
 namespace TesteHortoInova.Services
 {
@@ -16,7 +14,20 @@ namespace TesteHortoInova.Services
 
         public bool Authenticate(string email, string senha)
         {
-            return _context.SalvarDados.Any(user => user.Email == email && user.Senha == senha);
+            // Verificar se o usuário existe e a senha está correta
+            var user = _context.SalvarDados.FirstOrDefault(u => u.Email == email && u.Senha == senha);
+
+            if (user == null)
+            {
+                Console.WriteLine("Usuário não encontrado no banco");
+            }
+            else
+            {
+                Console.WriteLine("Usuário encontrado: " + user.Email);
+            }
+
+            // Retorna true se encontrar um usuário com as credenciais corretas, caso contrário, false
+            return user != null;
         }
     }
 }

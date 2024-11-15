@@ -54,7 +54,7 @@
 
         <h3 class="total">Total do Carrinho: @Model.TotalCarrinho.ToString("C")</h3>
 
-        <a href="@Url.Action("Limpar", "Carrinho")" class="clear-cart">Limpar Carrinho</a>
+        <a href="@Url.Action("Limpar", "Carrinho")" class="clear-cart">Limpar Carrinho</a> <br/>
         <!-- Botão para criar pedido -->
         <a href="@Url.Action("CriarPedido", "Carrinho")" class="buy-button">Comprar</a>
 
@@ -66,7 +66,8 @@
                 <p>
                     <strong>@produto.NomeProduto</strong><br>
                     Preço de Custo: @produto.Preco.ToString("C")<br>
-                    
+                    Quantidade em Estoque: @produto.Quantidade<br>
+
                     <a href="@Url.Action("Adicionar", "Carrinho", new { id = produto.IdProduto })">Adicionar ao Carrinho</a>
                 </p>
             }
@@ -88,6 +89,6 @@
         <p>&copy; 2024 HortoInova. Todos os direitos reservados.</p>
         <p>Orgulhosamente fornecendo produtos frescos e saudáveis.</p>
     </footer>
-
+    <script src="/_framework/aspnetcore-browser-refresh.js"></script>
 </body>
 </html>
