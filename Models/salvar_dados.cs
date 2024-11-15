@@ -2,7 +2,7 @@
 
 namespace TesteHortoInova.Models
 {
-    public class SalvarDados
+    public class salvar_dados
     {
         public int Id { get; set; }
         public string Email { get; set; }

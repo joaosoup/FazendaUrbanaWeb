@@ -74,16 +74,16 @@ public class CarrinhoController : Controller
             var pedidoEncerrados = new PedidosEncerrados
             {
                 IdPedido = pedido.IdPedido,
-                Estado = "Finalizado", // ou outro estado apropriado
-                Produto = string.Join(", ", pedido.Itens.Select(i => i.NomeProduto)), // Combina os nomes dos produtos
+                Estado = "Finalizado",
+                Produto = string.Join(", ", pedido.Itens.Select(i => i.NomeProduto)),
                 Quantidade = pedido.Itens.Sum(i => i.Quantidade),
-                ValorUnitario = pedido.Itens.First().Preco, // Exemplo, pegue o preço do primeiro item
-                Comprador = "Cliente Exemplo", // Modifique para o nome do comprador real
-                Plataforma = "Site", // Modifique conforme a plataforma de venda
-                FormaPgt = "Cartão", // Exemplo, defina a forma de pagamento
-                Desconto = 0, // Se houver desconto, substitua pelo valor apropriado
+                ValorUnitario = pedido.Itens.FirstOrDefault()?.Preco ?? 0, // Verifica se há itens
+                Comprador = "Cliente Exemplo",
+                Plataforma = "Site",
+                FormaPgt = "Cartão",
+                Desconto = 0,
                 ValorTotal = _carrinho.TotalCarrinho,
-                Marketplace = "Horto Inova", // Exemplo, ajuste conforme o marketplace
+                Marketplace = "Horto Inova",
             };
 
             // Adiciona ao banco de dados
@@ -96,4 +96,5 @@ public class CarrinhoController : Controller
 
         return RedirectToAction("Index");
     }
+
 }

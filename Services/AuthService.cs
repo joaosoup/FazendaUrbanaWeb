@@ -15,7 +15,7 @@ namespace TesteHortoInova.Services
         public bool Authenticate(string email, string senha)
         {
             // Verificar se o usuário existe e a senha está correta
-            var user = _context.SalvarDados.FirstOrDefault(u => u.Email == email && u.Senha == senha);
+            var user = _context.salvar_dados.FirstOrDefault(u => u.Email == email && u.Senha == senha);
 
             if (user == null)
             {
