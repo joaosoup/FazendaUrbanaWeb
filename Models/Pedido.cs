@@ -4,7 +4,7 @@
     {
         public int IdPedido { get; set; }
         public decimal ValorTotal { get; set; }
-        public int Quantidade { get; set; } // Adicione isso na classe Pedido
+        public int Quantidade { get; set; } 
 
         public List<ItemPedido> Itens { get; set; } = new List<ItemPedido>();
     }

@@ -5,7 +5,7 @@ using System.Collections.Generic;
 
 public class CarrinhoController : Controller
 {
-    private readonly EstoqueContext _context;  // Instância do contexto do banco
+    private readonly EstoqueContext _context;
 
     public static Carrinho _carrinho = new Carrinho();
     public static List<Produto> _produtos = new List<Produto>();
@@ -14,15 +14,16 @@ public class CarrinhoController : Controller
     {
         _context = context;
 
-        // Carregar produtos uma vez, se ainda não carregado
         if (!_produtos.Any())
         {
-            _produtos = _context.Produtos.ToList();  // Carrega os produtos do banco
+            _produtos = _context.Produtos.ToList();  
         }
     }
 
     public ActionResult Index()
     {
+        _produtos = _context.Produtos.ToList();
+
         return View(_carrinho);
     }
 
@@ -31,7 +32,14 @@ public class CarrinhoController : Controller
         var produto = _produtos.FirstOrDefault(p => p.IdProduto == id);
         if (produto != null)
         {
-            _carrinho.AdicionarItem(produto, quantidade);
+            if (quantidade > 0)
+            {
+                _carrinho.AdicionarItem(produto, quantidade); 
+            }
+            else if (quantidade < 0)
+            {
+                _carrinho.RemoverItem(produto.IdProduto, 1); 
+            }
         }
         return RedirectToAction("Index");
     }
@@ -42,18 +50,25 @@ public class CarrinhoController : Controller
         return RedirectToAction("Index");
     }
 
+
+
     public ActionResult Limpar()
     {
         _carrinho.LimparCarrinho();
         return RedirectToAction("Index");
     }
 
-    // Nova ação para criar pedido, limpar o carrinho e salvar no banco
+    //Botão Registrar (OK)
+    //Fazer um "Sobre" bonito (ok)
+    //Fazer Modal de pagamento concluido quando o pedido for criado (OK)
+    //Fazer tela de Registrar (Modal) (OK)
+    //Criar lógica para remover quantidade do estoque quando comprar (OK)
+    //Criar botão de adicionar, remover e excluir da tabela (OK)
+
     public ActionResult CriarPedido()
     {
         if (_carrinho.Itens.Any())
         {
-
             // Adiciona um pedido encerrado
             var pedidoEncerrado = new pedidos_encerrados
             {
@@ -61,8 +76,8 @@ public class CarrinhoController : Controller
                 Produto = string.Join(", ", _carrinho.Itens.Select(i => i.Produto.NomeProduto)),
                 Quantidade = _carrinho.Itens.Sum(i => i.Quantidade),
                 ValorUnitario = _carrinho.Itens.First().Produto.Preco,
-                Comprador = "Cliente Físico", // Substitua com o nome do cliente real, se aplicável
-                Plataforma = "Site",  
+                Comprador = "Cliente Físico", 
+                Plataforma = "Site",
                 FormaPgt = "Cartão",
                 Desconto = 0,
                 ValorTotal = _carrinho.TotalCarrinho,
@@ -70,24 +85,36 @@ public class CarrinhoController : Controller
                 DataPedido = DateTime.Now
             };
 
-            //Fazer Modal de pagamento concluido quando o pedido for criado
-            //Botão Registrar
-            //Fazer tela de Registrar (Modal)
-            //Fazer um "Sobre" bonito
+            foreach (var item in _carrinho.Itens)
+            {
+                var produtoNoEstoque = _context.Produtos.FirstOrDefault(p => p.IdProduto == item.Produto.IdProduto);
+                if (produtoNoEstoque != null)
+                {
+                    produtoNoEstoque.Quantidade -= item.Quantidade;
 
-            //SE DER TEMPO
-            //Criar lógica para remover quantidade do estoque quando comprar
-            //Lógica de mostrar mensagem de credencial errada (SEM REINICIAR A TELA)
+                    if (produtoNoEstoque.Quantidade < 0)
+                    {
+                        produtoNoEstoque.Quantidade = 0;
+                    }
 
-            // Adiciona ao banco de dados
+                    _context.Produtos.Update(produtoNoEstoque);
+                }
+            }
+
             _context.pedidos_encerrados.Add(pedidoEncerrado);
             _context.SaveChanges();
 
-            // Limpa o carrinho
             _carrinho.LimparCarrinho();
+
+            TempData["MensagemPedido"] = "Seu pedido foi criado com sucesso! Obrigado pela compra!";
+        }
+        else
+        {
+            TempData["MensagemPedido"] = "Seu carrinho está vazio. Não foi possível criar o pedido.";
         }
 
         return RedirectToAction("Index");
     }
+
 
 }

@@ -1,9 +1,12 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 
 namespace TesteHortoInova.Models
 {
     public class pedidos_encerrados
     {
+        [Key]
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)] 
         [Column("idpedido")]
         public int IdPedido { get; set; }
 
@@ -37,7 +40,7 @@ namespace TesteHortoInova.Models
         [Column("marketplace")]
         public string Marketplace { get; set; }
 
-        [Column("data_pedido")]
+        [Column("dataAddPedido")]
         public DateTime DataPedido { get; set; }
     }
 }

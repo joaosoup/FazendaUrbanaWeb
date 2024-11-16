@@ -3,7 +3,7 @@
 
 @{
     ViewData["Title"] = "Index";
-    Layout = null; // Defina o layout principal, se necessário
+    Layout = null; 
 }
 
 <!DOCTYPE html>
@@ -15,6 +15,44 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
     <link href="~/css/styles.css" rel="stylesheet" />
 </head>
+<style>
+    .actions a {
+        margin-right: 10px; 
+    }
+
+    button {
+        padding: 5px 10px;
+        font-size: 14px; 
+        border-radius: 4px; 
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-warning {
+        background-color: #ffc107;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    .btn-danger {
+        background-color: #dc3545;
+        color: white;
+        border: none;
+        cursor: pointer;
+    }
+
+    button:hover {
+        opacity: 0.8; 
+    }
+
+    
+</style>
 <body>
 
     <!-- Header -->
@@ -46,30 +84,50 @@
                     <td>@item.Quantidade</td>
                     <td>@item.Total.ToString("C")</td>
                     <td class="actions">
-                        <a href="@Url.Action("Remover", "Carrinho", new { id = item.Produto.IdProduto })">Remover</a>
+                        <a href="@Url.Action("Adicionar", "Carrinho", new { id = item.Produto.IdProduto, quantidade = 1 })">
+                            <button type="button" class="btn btn-success">+1</button>
+                        </a>
+                        <a href="@Url.Action("Adicionar", "Carrinho", new { id = item.Produto.IdProduto, quantidade = -1 })">
+                            <button type="button" class="btn btn-warning">-1</button>
+                        </a>
+                        <a href="@Url.Action("Remover", "Carrinho", new { id = item.Produto.IdProduto })">
+                            <button type="button" class="btn btn-danger">Remover</button>
+                        </a>
                     </td>
                 </tr>
             }
         </table>
 
+
         <h3 class="total">Total do Carrinho: @Model.TotalCarrinho.ToString("C")</h3>
 
         <a href="@Url.Action("Limpar", "Carrinho")" class="clear-cart">Limpar Carrinho</a> <br/>
-        <!-- Botão para criar pedido -->
+
         <a href="@Url.Action("CriarPedido", "Carrinho")" class="buy-button">Comprar</a>
+
+        @{
+            var mensagemPedido = TempData["MensagemPedido"];
+        }
+
+        @if (!string.IsNullOrEmpty(mensagemPedido?.ToString()))
+        {
+            <div class="alert alert-success" role="alert">
+                @mensagemPedido
+            </div>
+        }
 
 
         <h4>Produtos Disponíveis</h4>
         <div class="available-products">
             @foreach (var produto in CarrinhoController._produtos)
             {
-                <p>
+                <div class="product-card">
                     <strong>@produto.NomeProduto</strong><br>
                     Preço de Custo: @produto.Preco.ToString("C")<br>
                     Quantidade em Estoque: @produto.Quantidade<br>
 
                     <a href="@Url.Action("Adicionar", "Carrinho", new { id = produto.IdProduto })">Adicionar ao Carrinho</a>
-                </p>
+                </div>
             }
         </div>
         <!-- About Section -->
@@ -77,17 +135,63 @@
     <section>
         <div class="about-farm">
             <h4>Sobre a Fazenda</h4>
-            <p>
-                A fazenda urbana HortoInova é dedicada a fornecer produtos orgânicos e saudáveis, cultivados com práticas sustentáveis.
-                Nossos produtos são frescos, saudáveis e livres de agrotóxicos, garantindo qualidade e saúde para a sua mesa.
-            </p>
+            <div>
+                <p>Localizada no coração da cidade, a fazenda urbana <b>HortoInova</b> revoluciona a forma como consumimos alimentos. Cultivamos produtos orgânicos e naturais diretamente em telhados de prédios, utilizando práticas inovadoras e sustentáveis. Essa abordagem reduz o impacto ambiental e transforma espaços urbanos em verdadeiros oásis verdes.</p>
+                <img src="~/css/img/img1.jpg" alt="Telhados verdes da HortoInova">
+            </div>
+            <div class="inversa">
+                <img class="img 2" src="~/css/img/img2.jpg" alt="Produtos orgânicos da HortoInova">
+                <p>Nossos alimentos são livres de agrotóxicos e repletos de nutrientes, garantindo uma alimentação mais saudável e equilibrada para você e sua família. Além disso, ao comprar conosco, você apoia uma produção que economiza água, reduz emissões de carbono e minimiza o desperdício.</p>
+            </div>
+            <div>
+                <p>Cada produto da <b>HortoInova</b> traz não só o sabor da natureza, mas também o compromisso com um futuro mais sustentável. Escolha uma alimentação consciente, que cuida da sua saúde e do planeta.</p>
+                <img src="~/css/img/img3.jpg" alt="Produtos saudáveis e sustentáveis">
+            </div>
         </div>
+
     </section>
 
     <!-- Footer -->
     <footer>
-        <p>&copy; 2024 HortoInova. Todos os direitos reservados.</p>
-        <p>Orgulhosamente fornecendo produtos frescos e saudáveis.</p>
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="~/css/img/logo.png" alt="logo" class="logo">
+                <h3>HortoInova</h3>
+                <p class="texto-logo">Convertendo o concreto em paraísos naturais.</p>
+            </div>
+
+            <div class="footer-section">
+                <h4 class="section-title">Equipe</h4>
+                <p class="section-description">Nossa equipe é formada por profissionais dedicados e apaixonados pelo que fazem. Cada membro traz suas habilidades e experiência únicas, garantindo a excelência no desenvolvimento de projetos e soluções inovadoras.</p>
+                <ul class="team-list">
+                    <li>João</li>
+                    <li>Matheus</li>
+                    <li>Nicolle</li>
+                    <li>Nathan</li>
+                </ul>
+            </div>
+
+
+            <div class="footer-section ">
+                <div class="contato">
+                    <h4>Entre em Contato</h4>
+                    <p>Email: <a href="mailto:contato@hortoinova.com">contato@hortoinova.com</a></p>
+                    <p>Telefone: +55 (11) 1234-5678</p>
+                </div>
+                <address>
+                    <strong>Endereço:</strong><br>
+                    Av. Paulista, 900 - Bela Vista, <br>
+                    São Paulo - SP, 01311-000<br>
+                    Brasil
+                </address>
+            </div>
+        </div>
+
+
+        <div class="footer-bottom">
+            <p>&copy; 2024 HortoInova. Todos os direitos reservados.</p>
+            <p>Orgulhosamente fornecendo produtos frescos e saudáveis.</p>
+        </div>
     </footer>
     <script src="/_framework/aspnetcore-browser-refresh.js"></script>
 </body>

@@ -25,15 +25,12 @@ namespace TesteHortoInova.Controllers
 
             if (_authService.Authenticate(email, senha))
             {
-                TempData["AlertMessage"] = "Login realizado com sucesso!";
-                // Redireciona para a página de Carrinho/Index após o login bem-sucedido
-                return RedirectToAction("Index", "Carrinho"); // Certifique-se de que o controlador Carrinho está correto
+                return RedirectToAction("Index", "Carrinho"); 
             }
             else
             {
                 TempData["AlertMessage"] = "Credenciais inválidas!";
                 mensagemOn = true;
-                // Exibe mensagem de erro na tela de login
                 ModelState.AddModelError(string.Empty, "Credenciais inválidas");
                 return View(false);
             }
@@ -43,13 +40,37 @@ namespace TesteHortoInova.Controllers
 
         public IActionResult Index()
         {
-            // Verificando e passando a mensagem de alerta, se houver
             if (TempData["AlertMessage"] != null)
             {
                 ViewBag.AlertMessage = TempData["AlertMessage"];
             }
 
             return View();
+        }
+        [HttpPost]
+        public IActionResult Registrar(string email, string senha)
+        {
+            var usuarioExistente = _context.salvar_dados.FirstOrDefault(u => u.Email == email);
+            if (usuarioExistente != null)
+            {
+                ViewBag.ErrorMessage = "Este email já está registrado.";
+                return View();
+            }
+
+            // Cria um novo usuário
+            var novoUsuario = new salvar_dados
+            {
+                Email = email,
+                Senha = senha,
+                Salvar = 1
+            };
+
+            _context.salvar_dados.Add(novoUsuario);
+            _context.SaveChanges();
+
+            TempData["SuccessMessage"] = "Usuário registrado com sucesso! Agora você pode fazer login.";
+
+            return RedirectToAction("Index", "Inicial");
         }
     }
 }

@@ -14,7 +14,6 @@ namespace TesteHortoInova.Services
 
         public bool Authenticate(string email, string senha)
         {
-            // Verificar se o usuário existe e a senha está correta
             var user = _context.salvar_dados.FirstOrDefault(u => u.Email == email && u.Senha == senha);
 
             if (user == null)
@@ -26,7 +25,6 @@ namespace TesteHortoInova.Services
                 Console.WriteLine("Usuário encontrado: " + user.Email);
             }
 
-            // Retorna true se encontrar um usuário com as credenciais corretas, caso contrário, false
             return user != null;
         }
     }

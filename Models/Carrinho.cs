@@ -19,12 +19,30 @@
             }
         }
 
-        public void RemoverItem(int produtoId)
+        public void RemoverItem(int idProduto)
         {
-            var item = Itens.FirstOrDefault(i => i.Produto.IdProduto == produtoId);
+            var item = Itens.FirstOrDefault(i => i.Produto.IdProduto == idProduto);
+
             if (item != null)
             {
                 Itens.Remove(item);
+            }
+        }
+
+
+        public void RemoverItem(int idProduto, int quantidade = 1)
+        {
+            var item = Itens.FirstOrDefault(i => i.Produto.IdProduto == idProduto);
+            if (item != null)
+            {
+                if (quantidade >= item.Quantidade)
+                {
+                    Itens.Remove(item);  
+                }
+                else
+                {
+                    item.Quantidade -= quantidade;
+                }
             }
         }
 
