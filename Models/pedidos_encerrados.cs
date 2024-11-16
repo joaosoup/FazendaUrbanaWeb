@@ -2,7 +2,7 @@
 
 namespace TesteHortoInova.Models
 {
-    public class PedidosEncerrados
+    public class pedidos_encerrados
     {
         [Column("idpedido")]
         public int IdPedido { get; set; }
@@ -38,6 +38,6 @@ namespace TesteHortoInova.Models
         public string Marketplace { get; set; }
 
         [Column("data_pedido")]
-        public DateTime DataPedidoEncerrados { get; set; }
+        public DateTime DataPedido { get; set; }
     }
 }

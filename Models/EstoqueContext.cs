@@ -10,7 +10,7 @@ namespace TesteHortoInova.Models
         public DbSet<Pedido> Pedidos { get; set; }
         public DbSet<ItemPedido> ItensPedido { get; set; }
         public DbSet<salvar_dados> salvar_dados { get; set; }
-        public DbSet<PedidosEncerrados> PedidosEncerrados { get; set; } // Verifique essa linha
+        public DbSet<pedidos_encerrados> pedidos_encerrados { get; set; } // Verifique essa linha
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -19,7 +19,8 @@ namespace TesteHortoInova.Models
             modelBuilder.Entity<ItemPedido>().HasKey(ip => ip.IdItemPedido);
             modelBuilder.Entity<Pedido>().HasKey(p => p.IdPedido);
             modelBuilder.Entity<salvar_dados>().HasKey(sd => sd.Id);
-            modelBuilder.Entity<PedidosEncerrados>().HasKey(pe => pe.IdPedido);
+            modelBuilder.Entity<pedidos_encerrados>().HasKey(pe => pe.IdPedido);
+
 
         }
     }

@@ -1,66 +1,73 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\",
+  "WorkspaceRootPath": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\views\\inicial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:views\\inicial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\controllers\\inicialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:controllers\\inicialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\models\\estoquecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\models\\estoquecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\estoquecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\models\\salvar_dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\salvar_dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\models\\pedidos_encerrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\pedidos_encerrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\controllers\\inicialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:controllers\\inicialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\models\\carrinhoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\carrinhoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\models\\pedidosencerrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\pedidosencerrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\views\\carrinho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\views\\carrinho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:views\\carrinho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\users\\mamat\\desktop\\pim4\\html\\fazendaurbanaweb\\models\\carrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\views\\inicial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:views\\inicial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\haunt\\AppData\\Local\\Temp\\.vsdbgsrc\\89212dcd2f3257a3e3eec5938d09a0833888ece5c501afa26d6bce46396c248c\\ControllerActionInvoker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\models\\carrinhoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\carrinhoitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\models\\carrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\carrinho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\produto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\models\\salvar_dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\salvar_dados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:services\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -70,198 +77,227 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 8,
+          "SelectedChildIndex": 4,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 6,
               "Title": "Pedido.cs",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\Pedido.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\Pedido.cs",
               "RelativeDocumentMoniker": "Models\\Pedido.cs",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\Pedido.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\Pedido.cs",
               "RelativeToolTip": "Models\\Pedido.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAXAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T14:08:41.947Z",
               "IsPinned": true
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AuthService.cs",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Services\\AuthService.cs",
-              "RelativeDocumentMoniker": "Services\\AuthService.cs",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Services\\AuthService.cs",
-              "RelativeToolTip": "Services\\AuthService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:17:33.249Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Produto.cs",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\Produto.cs",
-              "RelativeDocumentMoniker": "Models\\Produto.cs",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\Produto.cs",
-              "RelativeToolTip": "Models\\Produto.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:15:50.438Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "CarrinhoItem.cs",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\CarrinhoItem.cs",
-              "RelativeDocumentMoniker": "Models\\CarrinhoItem.cs",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\CarrinhoItem.cs",
-              "RelativeToolTip": "Models\\CarrinhoItem.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:49:51.235Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-15T16:00:11.349Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "salvar_dados.cs",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\salvar_dados.cs",
-              "RelativeDocumentMoniker": "Models\\salvar_dados.cs",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\salvar_dados.cs",
-              "RelativeToolTip": "Models\\salvar_dados.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:15:49.581Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "InicialController.cs",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Controllers\\InicialController.cs",
-              "RelativeDocumentMoniker": "Controllers\\InicialController.cs",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Controllers\\InicialController.cs",
-              "RelativeToolTip": "Controllers\\InicialController.cs",
-              "ViewState": "AQIAABMAAAAAAAAAAAAgwCQAAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:03:16.392Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Views\\Inicial\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\Inicial\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Views\\Inicial\\Index.cshtml",
-              "RelativeToolTip": "Views\\Inicial\\Index.cshtml",
-              "ViewState": "AQIAAFsAAAAAAAAAAADwv4MAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T16:06:29.575Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "CarrinhoController.cs",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Controllers\\CarrinhoController.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Controllers\\CarrinhoController.cs",
               "RelativeDocumentMoniker": "Controllers\\CarrinhoController.cs",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Controllers\\CarrinhoController.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Controllers\\CarrinhoController.cs",
               "RelativeToolTip": "Controllers\\CarrinhoController.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAAwwF0AAAAnAAAA",
+              "ViewState": "AQIAADAAAAAAAAAAAAAgwD0AAABEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T13:56:40.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 0,
               "Title": "EstoqueContext.cs",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\EstoqueContext.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\EstoqueContext.cs",
               "RelativeDocumentMoniker": "Models\\EstoqueContext.cs",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\EstoqueContext.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\EstoqueContext.cs",
               "RelativeToolTip": "Models\\EstoqueContext.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAqwBoAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAABJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T13:49:46.36Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "PedidosEncerrados.cs",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\PedidosEncerrados.cs",
-              "RelativeDocumentMoniker": "Models\\PedidosEncerrados.cs",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\PedidosEncerrados.cs",
-              "RelativeToolTip": "Models\\PedidosEncerrados.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAIwCgAAAAsAAAA",
+              "DocumentIndex": 3,
+              "Title": "InicialController.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Controllers\\InicialController.cs",
+              "RelativeDocumentMoniker": "Controllers\\InicialController.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Controllers\\InicialController.cs",
+              "RelativeToolTip": "Controllers\\InicialController.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwCIAAAAaAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:59:25.127Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "appsettings.Development.json",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\appsettings.Development.json",
-              "RelativeDocumentMoniker": "appsettings.Development.json",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\appsettings.Development.json",
-              "RelativeToolTip": "appsettings.Development.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-15T15:59:43.185Z",
+              "WhenOpened": "2024-11-15T14:03:16.392Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAADEAAAAAAAAAAAAgwEUAAAAGAAAA",
+              "DocumentIndex": 2,
+              "Title": "pedidos_encerrados.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\pedidos_encerrados.cs",
+              "RelativeDocumentMoniker": "Models\\pedidos_encerrados.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\pedidos_encerrados.cs",
+              "RelativeToolTip": "Models\\pedidos_encerrados.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:21:00.405Z"
+              "WhenOpened": "2024-11-15T13:59:25.127Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Views\\Carrinho\\Index.cshtml",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Views\\Carrinho\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Carrinho\\Index.cshtml",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Views\\Carrinho\\Index.cshtml",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Views\\Carrinho\\Index.cshtml",
               "RelativeToolTip": "Views\\Carrinho\\Index.cshtml",
               "ViewState": "AQIAACwAAAAAAAAAAADwvzoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-11-15T13:55:09.734Z"
+              "WhenOpened": "2024-11-15T13:55:09.734Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Views\\Inicial\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Inicial\\Index.cshtml",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Views\\Inicial\\Index.cshtml",
+              "RelativeToolTip": "Views\\Inicial\\Index.cshtml",
+              "ViewState": "AQIAAFsAAAAAAAAAAADwv3kAAAAfAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-15T16:06:29.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ControllerActionInvoker.cs",
+              "DocumentMoniker": "C:\\Users\\haunt\\AppData\\Local\\Temp\\.vsdbgsrc\\89212dcd2f3257a3e3eec5938d09a0833888ece5c501afa26d6bce46396c248c\\ControllerActionInvoker.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\haunt\\AppData\\Local\\Temp\\.vsdbgsrc\\89212dcd2f3257a3e3eec5938d09a0833888ece5c501afa26d6bce46396c248c\\ControllerActionInvoker.cs",
+              "ToolTip": "C:\\Users\\haunt\\AppData\\Local\\Temp\\.vsdbgsrc\\89212dcd2f3257a3e3eec5938d09a0833888ece5c501afa26d6bce46396c248c\\ControllerActionInvoker.cs [Somente Leitura]",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\haunt\\AppData\\Local\\Temp\\.vsdbgsrc\\89212dcd2f3257a3e3eec5938d09a0833888ece5c501afa26d6bce46396c248c\\ControllerActionInvoker.cs [Somente Leitura]",
+              "ViewState": "AQIAAFsBAAAAAAAAAAD4v24BAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T19:44:40.798Z",
+              "EditorCaption": " [Somente Leitura]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CarrinhoItem.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\CarrinhoItem.cs",
+              "RelativeDocumentMoniker": "Models\\CarrinhoItem.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\CarrinhoItem.cs",
+              "RelativeToolTip": "Models\\CarrinhoItem.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:49:51.235Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Carrinho.cs",
-              "DocumentMoniker": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\Carrinho.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\Carrinho.cs",
               "RelativeDocumentMoniker": "Models\\Carrinho.cs",
-              "ToolTip": "C:\\Users\\mamat\\Desktop\\pim4\\html\\FazendaUrbanaWeb\\Models\\Carrinho.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\Carrinho.cs",
               "RelativeToolTip": "Models\\Carrinho.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T13:49:56.789Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Produto.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\Produto.cs",
+              "RelativeDocumentMoniker": "Models\\Produto.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\Produto.cs",
+              "RelativeToolTip": "Models\\Produto.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:15:50.438Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T19:42:31.354Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T16:00:11.349Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "salvar_dados.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\salvar_dados.cs",
+              "RelativeDocumentMoniker": "Models\\salvar_dados.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\salvar_dados.cs",
+              "RelativeToolTip": "Models\\salvar_dados.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:15:49.581Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Services\\AuthService.cs",
+              "RelativeDocumentMoniker": "Services\\AuthService.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Services\\AuthService.cs",
+              "RelativeToolTip": "Services\\AuthService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:17:33.249Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "appsettings.Development.json",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\appsettings.Development.json",
+              "RelativeToolTip": "appsettings.Development.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-11-15T15:59:43.185Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAADEAAAAAAAAAAAAgwEUAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T14:21:00.405Z"
             }
           ]
         }

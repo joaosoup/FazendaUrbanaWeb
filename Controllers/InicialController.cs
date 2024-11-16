@@ -2,6 +2,7 @@
 using TesteHortoInova.Services;
 using TesteHortoInova.Models;
 using System.Linq;
+using System;
 
 namespace TesteHortoInova.Controllers
 {
@@ -9,6 +10,7 @@ namespace TesteHortoInova.Controllers
     {
         private readonly AuthService _authService;
         private readonly EstoqueContext _context;
+        public Boolean mensagemOn = false;
 
         public InicialController(AuthService authService, EstoqueContext context)
         {
@@ -30,9 +32,10 @@ namespace TesteHortoInova.Controllers
             else
             {
                 TempData["AlertMessage"] = "Credenciais inválidas!";
+                mensagemOn = true;
                 // Exibe mensagem de erro na tela de login
                 ModelState.AddModelError(string.Empty, "Credenciais inválidas");
-                return View("Index");
+                return View(false);
             }
         }
 

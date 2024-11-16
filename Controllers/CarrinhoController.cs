@@ -53,41 +53,25 @@ public class CarrinhoController : Controller
     {
         if (_carrinho.Itens.Any())
         {
-            // Cria um novo pedido
-            var pedido = new Pedido
-            {
-                ValorTotal = _carrinho.TotalCarrinho,
-                Itens = _carrinho.Itens.Select(item => new ItemPedido
-                {
-                    IdProduto = item.Produto.IdProduto,
-                    NomeProduto = item.Produto.NomeProduto,
-                    Preco = item.Produto.Preco,
-                    Quantidade = item.Quantidade
-                }).ToList()
-            };
-
-            // Adiciona o pedido ao banco de dados
-            _context.Pedidos.Add(pedido);
-            _context.SaveChanges();
 
             // Adiciona um pedido encerrado
-            var pedidoEncerrados = new PedidosEncerrados
+            var pedidoEncerrado = new pedidos_encerrados
             {
-                IdPedido = pedido.IdPedido,
                 Estado = "Finalizado",
-                Produto = string.Join(", ", pedido.Itens.Select(i => i.NomeProduto)),
-                Quantidade = pedido.Itens.Sum(i => i.Quantidade),
-                ValorUnitario = pedido.Itens.FirstOrDefault()?.Preco ?? 0, // Verifica se há itens
-                Comprador = "Cliente Exemplo",
+                Produto = string.Join(", ", _carrinho.Itens.Select(i => i.Produto.NomeProduto)),
+                Quantidade = _carrinho.Itens.Sum(i => i.Quantidade),
+                ValorUnitario = _carrinho.Itens.First().Produto.Preco,
+                Comprador = "Cliente Exemplo", // Substitua com o nome do cliente real, se aplicável
                 Plataforma = "Site",
                 FormaPgt = "Cartão",
                 Desconto = 0,
                 ValorTotal = _carrinho.TotalCarrinho,
                 Marketplace = "Horto Inova",
+                DataPedido = DateTime.Now
             };
 
             // Adiciona ao banco de dados
-            _context.PedidosEncerrados.Add(pedidoEncerrados);
+            _context.pedidos_encerrados.Add(pedidoEncerrado);
             _context.SaveChanges();
 
             // Limpa o carrinho
