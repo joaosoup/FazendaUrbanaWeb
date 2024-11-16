@@ -3,12 +3,20 @@
   "WorkspaceRootPath": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\models\\estoquecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\estoquecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\views\\inicial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:views\\inicial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\views\\carrinho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:views\\carrinho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:controllers\\carrinhocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\models\\estoquecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:models\\estoquecontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\models\\pedidos_encerrados.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\controllers\\inicialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:controllers\\inicialcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\views\\carrinho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:views\\carrinho\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\views\\inicial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|solutionrelative:views\\inicial\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3EFEBC53-D276-4F74-95F0-8C540F7036FB}|TesteHortoInova.csproj|c:\\gitprojects\\jobs\\pim - 4 semestre\\fazendaurbanaweb\\models\\pedido.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -77,16 +77,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
             {
               "$type": "Document",
               "DocumentIndex": 6,
@@ -98,37 +90,33 @@
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T14:08:41.947Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "CarrinhoController.cs",
               "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Controllers\\CarrinhoController.cs",
               "RelativeDocumentMoniker": "Controllers\\CarrinhoController.cs",
               "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Controllers\\CarrinhoController.cs",
               "RelativeToolTip": "Controllers\\CarrinhoController.cs",
-              "ViewState": "AQIAADAAAAAAAAAAAAAgwD0AAABEAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T13:56:40.031Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "EstoqueContext.cs",
-              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\EstoqueContext.cs",
-              "RelativeDocumentMoniker": "Models\\EstoqueContext.cs",
-              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\EstoqueContext.cs",
-              "RelativeToolTip": "Models\\EstoqueContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBAAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:49:46.36Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "InicialController.cs",
               "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Controllers\\InicialController.cs",
               "RelativeDocumentMoniker": "Controllers\\InicialController.cs",
@@ -141,7 +129,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "pedidos_encerrados.cs",
               "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\pedidos_encerrados.cs",
               "RelativeDocumentMoniker": "Models\\pedidos_encerrados.cs",
@@ -154,28 +142,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Views\\Carrinho\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Carrinho\\Index.cshtml",
               "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Views\\Carrinho\\Index.cshtml",
               "RelativeToolTip": "Views\\Carrinho\\Index.cshtml",
-              "ViewState": "AQIAACwAAAAAAAAAAADwvzoAAAApAAAA",
+              "ViewState": "AQIAADUAAAAAAAAAAADwvzoAAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-15T13:55:09.734Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Views\\Inicial\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Inicial\\Index.cshtml",
               "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Views\\Inicial\\Index.cshtml",
               "RelativeToolTip": "Views\\Inicial\\Index.cshtml",
-              "ViewState": "AQIAAFsAAAAAAAAAAADwv3kAAAAfAAAA",
+              "ViewState": "AQIAAFEAAAAAAAAAAAAAAGwAAAAWAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-11-15T16:06:29.575Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EstoqueContext.cs",
+              "DocumentMoniker": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\EstoqueContext.cs",
+              "RelativeDocumentMoniker": "Models\\EstoqueContext.cs",
+              "ToolTip": "C:\\GitProjects\\Jobs\\PIM - 4 Semestre\\FazendaUrbanaWeb\\Models\\EstoqueContext.cs",
+              "RelativeToolTip": "Models\\EstoqueContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBsAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-15T13:49:46.36Z",
               "EditorCaption": ""
             },
             {
@@ -184,12 +185,12 @@
               "Title": "ControllerActionInvoker.cs",
               "DocumentMoniker": "C:\\Users\\haunt\\AppData\\Local\\Temp\\.vsdbgsrc\\89212dcd2f3257a3e3eec5938d09a0833888ece5c501afa26d6bce46396c248c\\ControllerActionInvoker.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\..\\Users\\haunt\\AppData\\Local\\Temp\\.vsdbgsrc\\89212dcd2f3257a3e3eec5938d09a0833888ece5c501afa26d6bce46396c248c\\ControllerActionInvoker.cs",
-              "ToolTip": "C:\\Users\\haunt\\AppData\\Local\\Temp\\.vsdbgsrc\\89212dcd2f3257a3e3eec5938d09a0833888ece5c501afa26d6bce46396c248c\\ControllerActionInvoker.cs [Somente Leitura]",
-              "RelativeToolTip": "..\\..\\..\\..\\Users\\haunt\\AppData\\Local\\Temp\\.vsdbgsrc\\89212dcd2f3257a3e3eec5938d09a0833888ece5c501afa26d6bce46396c248c\\ControllerActionInvoker.cs [Somente Leitura]",
+              "ToolTip": "C:\\Users\\haunt\\AppData\\Local\\Temp\\.vsdbgsrc\\89212dcd2f3257a3e3eec5938d09a0833888ece5c501afa26d6bce46396c248c\\ControllerActionInvoker.cs",
+              "RelativeToolTip": "..\\..\\..\\..\\Users\\haunt\\AppData\\Local\\Temp\\.vsdbgsrc\\89212dcd2f3257a3e3eec5938d09a0833888ece5c501afa26d6bce46396c248c\\ControllerActionInvoker.cs",
               "ViewState": "AQIAAFsBAAAAAAAAAAD4v24BAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-15T19:44:40.798Z",
-              "EditorCaption": " [Somente Leitura]"
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -201,7 +202,8 @@
               "RelativeToolTip": "Models\\CarrinhoItem.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:49:51.235Z"
+              "WhenOpened": "2024-11-15T13:49:51.235Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -213,7 +215,8 @@
               "RelativeToolTip": "Models\\Carrinho.cs",
               "ViewState": "AQIAAAMAAAAAAAAAAAAAACUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T13:49:56.789Z"
+              "WhenOpened": "2024-11-15T13:49:56.789Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -225,7 +228,8 @@
               "RelativeToolTip": "Models\\Produto.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:15:50.438Z"
+              "WhenOpened": "2024-11-15T14:15:50.438Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -237,7 +241,8 @@
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T19:42:31.354Z"
+              "WhenOpened": "2024-11-15T19:42:31.354Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -249,7 +254,8 @@
               "RelativeToolTip": "appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-15T16:00:11.349Z"
+              "WhenOpened": "2024-11-15T16:00:11.349Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -261,7 +267,8 @@
               "RelativeToolTip": "Models\\salvar_dados.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:15:49.581Z"
+              "WhenOpened": "2024-11-15T14:15:49.581Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -273,7 +280,8 @@
               "RelativeToolTip": "Services\\AuthService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:17:33.249Z"
+              "WhenOpened": "2024-11-15T14:17:33.249Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -285,7 +293,8 @@
               "RelativeToolTip": "appsettings.Development.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-11-15T15:59:43.185Z"
+              "WhenOpened": "2024-11-15T15:59:43.185Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -297,7 +306,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AQIAADEAAAAAAAAAAAAgwEUAAAAGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-15T14:21:00.405Z"
+              "WhenOpened": "2024-11-15T14:21:00.405Z",
+              "EditorCaption": ""
             }
           ]
         }

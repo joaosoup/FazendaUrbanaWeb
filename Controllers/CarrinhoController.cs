@@ -61,14 +61,23 @@ public class CarrinhoController : Controller
                 Produto = string.Join(", ", _carrinho.Itens.Select(i => i.Produto.NomeProduto)),
                 Quantidade = _carrinho.Itens.Sum(i => i.Quantidade),
                 ValorUnitario = _carrinho.Itens.First().Produto.Preco,
-                Comprador = "Cliente Exemplo", // Substitua com o nome do cliente real, se aplicável
-                Plataforma = "Site",
+                Comprador = "Cliente Físico", // Substitua com o nome do cliente real, se aplicável
+                Plataforma = "Site",  
                 FormaPgt = "Cartão",
                 Desconto = 0,
                 ValorTotal = _carrinho.TotalCarrinho,
                 Marketplace = "Horto Inova",
                 DataPedido = DateTime.Now
             };
+
+            //Fazer Modal de pagamento concluido quando o pedido for criado
+            //Botão Registrar
+            //Fazer tela de Registrar (Modal)
+            //Fazer um "Sobre" bonito
+
+            //SE DER TEMPO
+            //Criar lógica para remover quantidade do estoque quando comprar
+            //Lógica de mostrar mensagem de credencial errada (SEM REINICIAR A TELA)
 
             // Adiciona ao banco de dados
             _context.pedidos_encerrados.Add(pedidoEncerrado);
