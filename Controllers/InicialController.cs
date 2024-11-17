@@ -25,7 +25,7 @@ namespace TesteHortoInova.Controllers
 
             if (_authService.Authenticate(email, senha))
             {
-                return RedirectToAction("Index", "Carrinho"); 
+                return RedirectToAction("Index", "Carrinho");
             }
             else
             {
@@ -48,8 +48,19 @@ namespace TesteHortoInova.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Registrar(string email, string senha)
+        public IActionResult Registrar(
+    string email,
+    string senha,
+    string nome,
+    DateTime datanascimento,
+    string telefone,
+    string celular,
+    string rg,
+    string cpf,
+    string endereco,
+    string observacoes)
         {
+            // Verifica se o email já existe na tabela salvar_dados
             var usuarioExistente = _context.salvar_dados.FirstOrDefault(u => u.Email == email);
             if (usuarioExistente != null)
             {
@@ -57,19 +68,34 @@ namespace TesteHortoInova.Controllers
                 return View();
             }
 
-            // Cria um novo usuário
+            // Salvar dados na tabela salvar_dados
             var novoUsuario = new salvar_dados
             {
                 Email = email,
                 Senha = senha,
                 Salvar = 1
             };
-
             _context.salvar_dados.Add(novoUsuario);
+
+            // Salvar dados na tabela clientefisico
+            var novoCliente = new clientefisico
+            {
+                Nome = nome,
+                DataNascimento = datanascimento,
+                Telefone = telefone,
+                Celular = celular,
+                RG = rg,
+                CPF = cpf,
+                Endereco = endereco,
+                Email = email,
+                Observacoes = observacoes
+            };
+            _context.clientefisico.Add(novoCliente);
+
+            // Salvar no banco de dados
             _context.SaveChanges();
 
             TempData["SuccessMessage"] = "Usuário registrado com sucesso! Agora você pode fazer login.";
-
             return RedirectToAction("Index", "Inicial");
         }
     }
